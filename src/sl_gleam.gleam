@@ -47,6 +47,7 @@ pub fn view(model: Model) -> element.Element(Msg) {
   html.div([], [
     html.button([event.on_click(Incr)], [element.text("+")]),
     element.text(count),
+    element.element("sl-button", [], [element.text("I am a sl button")]),
     html.button([event.on_click(Decr)], [element.text("-")]),
   ])
 }

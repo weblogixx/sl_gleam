@@ -18,5 +18,8 @@
     "ts-gleam": "^1.0.1",
     "vite": "^5.2.12",
     "vite-gleam": "^0.4.2"
+  },
+  "dependencies": {
+    "@shoelace-style/shoelace": "^2.15.1"
   }
 }
