@@ -1,4 +1,9 @@
+# gleam stuff
 *.beam
 *.ez
 /build
 erl_crash.dump
+
+# node stuff
+dist
+node_modules

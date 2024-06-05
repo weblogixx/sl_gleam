@@ -1,0 +1,22 @@
+{
+  "name": "sl_gleam",
+  "version": "0.1.0",
+  "description": "Shoelace bindings for gleam lustre",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "vite",
+    "dev": "vite dev",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "ts-gleam": "^1.0.1",
+    "vite": "^5.2.12",
+    "vite-gleam": "^0.4.2"
+  }
+}
