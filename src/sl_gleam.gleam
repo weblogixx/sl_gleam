@@ -51,7 +51,7 @@ pub fn view(model: Model) -> element.Element(Msg) {
   html.div([], [
     html.button([event.on_click(Incr)], [element.text("+")]),
     element.text(count),
-    element.element("sl-button-group", [], [
+    sl.button_group([], [
       // Our implementation, Variant 1
       sl.button([button.variant(button.Warning)], [
         html.span([attribute.attribute("slot", "prefix")], [
@@ -77,7 +77,7 @@ pub fn view(model: Model) -> element.Element(Msg) {
         [button.warning(), button.small(), shared.with_event("focus", Decr)],
         [
           html.span([button.prefix_slot()], [element.text("Prefix")]),
-          html.span([], [element.text("Variant 4")]),
+          element.text("Variant 4"),
           html.span([button.suffix_slot()], [element.text("Suffix")]),
         ],
       ),
